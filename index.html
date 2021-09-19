@@ -159,7 +159,8 @@
                                         class="form-control">
                                 </div>
                             </div>
-                            <input class="contac-submit-btn btn pull-right mt-16 s-full-width" type="submit" value="SEND">
+                            <input class="contac-submit-btn btn pull-right mt-16 s-full-width" type="submit"
+                                value="SEND">
                         </form>
                     </div>
                 </div>
@@ -274,7 +275,7 @@
                 var menuItem = menuItems[i];
 
                 menuItem.onclick = function (event) {
-                    var isParentMenu = this.nextElementSibling && menuItem.nextElementSibling.classList.contains('subnav');
+                    var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
                     if (isParentMenu) {
                         event.preventDefault();
                     }
